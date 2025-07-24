@@ -5,7 +5,7 @@ on:
 jobs:
   freebsd-cross-build:
     name: Cross-Build for FreeBSD
-    runs-on: 'ubuntu-24.04'
+    runs-on: 'ubuntu-20.04'
     env:
       CARGO_NET_GIT_FETCH_WITH_CLI: true
     steps:
